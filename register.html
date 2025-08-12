@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register - Anantya 2025</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+    ACM PCCoE
+  </div>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="team.html">Team</a>
+  </div>
+</nav>
+
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Register for Anantya 2025</h1>
+      <form action="thankyou.html" method="get" novalidate>
+        <label for="fullname">Full Name *</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your full name" required />
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required />
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" pattern="[0-9]{10,15}" required />
+
+        <label for="department">Department / Branch *</label>
+        <select id="department" name="department" required>
+          <option value="" disabled selected>Select your department</option>
+          <option>CSE</option>
+          <option>IT</option>
+          <option>ECE</option>
+          <option>Mechanical</option>
+          <option>Civil</option>
+        </select>
+
+        <label for="year">Year of Study *</label>
+        <select id="year" name="year" required>
+          <option value="" disabled selected>Select your year</option>
+          <option>First Year</option>
+          <option>Second Year</option>
+          <option>Third Year</option>
+          <option>Final Year</option>
+        </select>
+
+        <button type="submit" class="btn">Submit Registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 ACM PCCoE - All rights reserved.
+  </footer>
+</body>
+</html>
